@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- meta http-equiv="Content-Security-Policy" content="script-src 'self';" -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+  <link rel="stylesheet" type="text/css" href="css/rahula.css">
+  <title>Rahula</title>
+
+</head>
+
+<body style="background-color:#191919;">
+  <h1 class="h3 py-2 text-light text-center noselect">RahulaView</h1>
+    <div class="container">
+        <div style="width:100%;height:150px;" class="container align-content-center pre-scrollable overflow-auto text-danger border border-info">
+  
+          <div class="row" id="gallary">
+            <!-- image card start
+            <div class="card text-white bg-primary mb-3 mr-3" style="max-width: 18rem;">
+                  <img height=200 width=200  src="res/img1.jpg" alt="">
+            </div>
+             image card end-->
+          </div>
+       
+        </div>
+        <br>
+        <div class="col  align-content-center">
+          <div class="dropzone" id="dropzone">Drop files here</div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+          <input type="number" id="secondsBox" style="visibility: visible;" class="form-control" placeholder="time interval" >
+          </div>
+          <div class="col">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <label class="form-check-label">Window On Top
+                  <input id='CheckWindowOnTop' type="checkbox" aria-label="Checkbox for following text input">
+                </label>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-8">
+        
+        <br>
+        <button class="btn btn-primary" id="newWindowBtn">Slideshow</button>
+        <button class="btn btn-danger" style="visibility: hidden;" id="closeSlideBtn">End Show</button>
+        
+      </div>
+        
+  <!--
+  <img id="slide" width="500" height=200>
+  <button onclick="changeImg(imgList)">Click me</button>
+      -->
+    </div>
+    
+
+    <script  type="text/javascript" src="./index.js">
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "rahulaview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pritom",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.3",
+    "electron-packager": "^14.2.1"
+  }
+}
