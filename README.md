@@ -11,3 +11,7 @@ cd RahulaView
 # Install dependencies and run the app
 npm install && npm start
 ```
+
+**UI Preview**
+![](res/rahulaUI.png)
+
